@@ -1,0 +1,5 @@
+<h1>Firma digital</h1>
+
+Al finalizar la prueba anote el identificador de la firma digital
+(resultado del comando <code>md5sum</code>) del repositorio,
+que deberá solicitar al profesor.

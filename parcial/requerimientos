@@ -1,0 +1,16 @@
+Cómo ejecutar el código:
+
+Herramientas necesarias:
+
+- Distribución Linux (para poder ejecutar comandos en terminal de manera sencilla)
+- Editor de texto (en mi caso, Sublime3, pero puede ser cualquier otro; por ejemplo GVIM), el cual nos sirve como herramienta de programación
+- Intérprete Python3
+- Scripts de ejecución con Makefile (ejecutable desde terminal con la llamada make SCRIPT)
+
+Orden recomendado de ejecución:
+Make test
+#ejecuta sólo test: 
+python3 -m unittest -v test_rectangulo.py
+
+Make rect
+#ejecuta test y luego: python3 rectangulo.py

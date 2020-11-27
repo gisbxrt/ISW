@@ -1,0 +1,18 @@
+<h1>Realización de la prueba</h1>
+
+El resto de la prueba consiste en la implementación de una especificación de requisitos mediante la metodología TDD (Test-Driven Development, Desarrollo dirigido por pruebas). La puntuación se asignará a diferentes entregas realizadas en el repositorio, con las siguientes condiciones:
+
+<ol>
+
+<li>Entregas etiquetadas como <code>"Test n"</code>. Deberán contener un caso de prueba que sea el único que no funcione en dicha entrega. Es necesario que los casos de prueba de las diferentes entregas sean funcionalmente distintos. Los casos de prueba deberán tratar de cubrir todas las situaciones especificadas en los requisitos. Cada caso de prueba funcionalmente distinto y adecuado a los requisitos del enunciado que sea ejecutado correctamente por el software sumará 0,5 puntos. Puede escribir todos los casos de prueba que estime oportunos (máximo 4 puntos)</li>
+
+<li>Entregas etiquetadas como <code>"Test n OK"</code>. Deberán hacer funcionar un caso de prueba que fallaba en la entrega anterior. Cada una de estas entregas sumará 0,5 puntos siempre que todos los casos de prueba acumulados funcionen (máximo 4 puntos)</li>
+
+<li>Entregas etiquetadas como <code>"Refactoring N"</code>. Deberán contener una recodificación (refactoring) del código, diferenciándose de la entrega anterior solamente en dicha recodificación pero no en los casos de prueba, que deberán ser los mismos de la entrega anterior. Sumarán 0,5 puntos si todos los casos de prueba funcionan (máximo 2 puntos)</li>
+
+<li>Indique el procedimiento y las herramientas necesarias para ejecutar el código de las respuestas anteriores: sistema operativo, herramientas de programación, de construcción, scripts, etc. (0,5 puntos)</li>
+</ol>
+
+En el siguiente enlace se indica la
+<a href="especificacion.wiki">especificación de requisitos</a>
+a implementar.

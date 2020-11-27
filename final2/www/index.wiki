@@ -1,0 +1,18 @@
+<h1>Defensa de prácticas de Programación en Entornos Distribuidos</h1>
+
+<h2><a href="normas.wiki">Normas de realización de la defensa</a></h2>
+
+<h2><a href="entrega.wiki">Entrega de respuestas</a></h2>
+
+<h2>Preguntas</h2>
+
+<ol>
+    <li><h3><a href="repo.wiki">Obtención del repositorio</a></h3></li>
+    <li><h3><a href="prueba.wiki">Realización de la prueba</a></h3></li>
+    <li><h3><a href="firma.wiki">Firma digital</a></h3></li>
+</ol>
+
+<br />
+Programación en Entornos Distribuidos
+
+Grado en Ingeniería de Sistemas de Información &mdash; Universidad San Pablo-CEU

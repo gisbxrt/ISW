@@ -1,0 +1,36 @@
+cliente-servidor 
+
+cliente conexión TCP al puerto del servidor y enviar mensaje // esperará una respuesta del servidor, imprimir en su salida standard, pudiendo terminar o realizando más ciclos de mensaje - respuesta.
+
+	WHILE consulta1
+
+	al final: print más consultas? si no
+
+El servidor deberá ejecutarse de forma continua, sin detenerse, y deberá aceptar conexiones de cualquier cliente en el puerto TCP número N, donde N = 16000 + 10*su número de grupo de prácticas + su posición dentro del grupo tomando como criterio de ordenación el índice alfabético de los apellidos de sus componentes (ejemplo: si su grupo es el 7 y es usted el primero de su grupo, N=16071).  
+
+	>> PUERTO TCP N= 16011
+
+El servidor responderá a los siguientes mensajes de texto, enviados desde el cliente, con las respuestas que se indican a continuación; tanto los mensajes como las respuestas deberán ir codificados en UTF-8: CODIF ESTÁNDAR
+
+    P:Frase → el servidor responderá determinando si la frase es un palíndromo puro (SI), un palíndromo impuro (PARCIAL) o no lo es (NO)
+
+    Ejemplo: P:asa → SI
+
+    Ejemplo: P:A man, a plan, a canal: Panama → PARCIAL
+
+    Ejemplo: P:Qué tontería → NO
+
+
+>> PURO: palabra, IMPURO: frase
+
+    C:NumeroNatural → el servidor responderá determinando si el número es capicúa (SI), no lo es (NO), o no es un número natural (NONATURAL)
+
+    Ejemplo: C:13431 → SI
+
+    Ejemplo: C:428 → NO
+
+    Ejemplo: C:Qué tontería → NONATURAL
+
+ 
+
+    Cualquier otro mensaje → el servidor responderá ERROR

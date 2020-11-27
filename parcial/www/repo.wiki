@@ -1,0 +1,15 @@
+<h1>Obtención del repositorio</h1>
+
+Una vez clonado el repositorio <code>fossil</code> facilitado por el profesor para realizar la prueba (le facilitará asimismo las credenciales oportunas para ello) y abierto en un directorio de su elección, que pasa a ser su copia de trabajo <i>(working copy)</i> para la realización del resto de la prueba, cámbiese a dicho directorio.
+
+Anote en el fichero DATOS los datos que se le solicitan (0,25 puntos)
+
+<ul>
+<li>Usuario de acceso al repositorio</li>
+<li>Contraseña de acceso al repositorio</li>
+<li>URI del repositorio original (suministrado por el profesor) que será del formato:
+<br /><code>http://{alumno}@repo.eps.ceu.es/examen/{asignatura}/{alumno}</code><br />
+(sustituyendo {asignatura} por el nombre corto de su asignatura y {alumno} por su usuario de correo electrónico de la universidad)</li>
+<li>Ruta completa del repositorio clonado (creado por el alumno)</li>
+<li>Ruta completa del directorio de trabajo <i>(working copy)</i></li>
+</ul>

@@ -1,0 +1,29 @@
+<h1>Especificación de requisitos a implementar</h1>
+
+Se desea realizar un sistema cliente-servidor con las siguientes características:
+<p>
+El cliente deberá realizar una conexión <b>TCP</b> al puerto del servidor y enviar por ella un mensaje de los que se describen a continuación; una vez enviado el mensaje, esperará una respuesta del servidor por dicha conexión, respuesta que deberá imprimir en su <em>salida standard</em>, pudiendo terminar una vez recibida e impresa dicha respuesta o realizando más ciclos de mensaje - respuesta.
+<p>
+El servidor deberá ejecutarse de forma continua, sin detenerse, y deberá aceptar conexiones de cualquier cliente en el puerto <b>TCP</b> número <b><code>N</code></b>, donde <code><b>N</b> = 16000 + 10*su número de grupo de prácticas + su posición dentro del grupo</code> tomando como criterio de ordenación el índice alfabético de los apellidos de sus componentes (ejemplo: si su grupo es el <code>7</code> y es usted el primero de su grupo, <code><b>N</b>=16071</code>).
+<p>
+El servidor responderá a los siguientes mensajes de texto, enviados desde el cliente, con las respuestas que se indican a continuación; tanto los mensajes como las respuestas deberán ir codificados en <code>UTF-8</code>:
+
+<ul>
+<li><b><code>P:Frase</code></b> &rarr; el servidor responderá determinando si la frase es un palíndromo puro (<b><code>SI</code></b>), un palíndromo impuro (<b><code>PARCIAL</code></b>) o no lo es (<b><code>NO</code></b>)
+<p>
+Ejemplo: <b><code>P:asa &rarr; SI</code></b>
+<p>
+Ejemplo: <b><code>P:A man, a plan, a canal: Panama &rarr; PARCIAL</code></b>
+<p>
+Ejemplo: <b><code>P:Qué tontería &rarr; NO</code></b>
+</li>
+<li><b><code>C:NumeroNatural</code></b> &rarr; el servidor responderá determinando si el número es capicúa (<b><code>SI</code></b>), no lo es (<b><code>NO</code></b>), o no es un número natural (<b><code>NONATURAL</code></b>)
+<p>
+Ejemplo: <b><code>C:13431 &rarr; SI</code></b>
+<p>
+Ejemplo: <b><code>C:428 &rarr; NO</code></b>
+<p>
+Ejemplo: <b><code>C:Qué tontería &rarr; NONATURAL</code></b>
+</li>
+<li>Cualquier otro mensaje &rarr; el servidor responderá <b><code>ERROR</code></b></li>
+</ul>

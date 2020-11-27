@@ -1,0 +1,22 @@
+<h1>Especificación de requisitos a implementar</h1>
+
+Diseñe una abstracción (módulo, función, clase, objeto, lo que desee) para
+modelar un <b>rectángulo</b> que soporte las siguientes operaciones:
+
+<ul>
+
+<li>Construcción a partir de los parámetros <code>xmin, ymin, xmax, ymax</code>
+    (decida qué comprobaciones de error son oportunas)</li>
+
+<li>Capaz de calcular su área</li>
+
+<li>Capaz de calcular su perímetro</li>
+
+<li>Capaz de calcular su centro</li>
+
+<li>Capaz de calcular su diagonal</li>
+
+<li>Capaz de comprobar si se superpone con otro rectángulo
+    (defina el criterio de superposición)</li>
+
+</ul>

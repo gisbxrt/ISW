@@ -1,0 +1,7 @@
+<h1>Entrega de respuestas</h1>
+
+Para la realización de las siguientes preguntas, el software realizado por el alumno deberá compilarse y ejecutarse sin errores en el directorio de trabajo indicado en la pregunta siguiente. La compilación y ejecución se realizará mediante el procedimiento que indique el alumno.
+
+<br />
+
+Al finalizar la prueba rellene el identificador de la firma digital (resultado del comando md5sum) del repositorio, que deberá solicitar al profesor.
